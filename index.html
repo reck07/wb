@@ -22,16 +22,19 @@
                         <a href="#" class="nav-link">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#" class="nav-link">About</a>
+                        <a href="#about" class="nav-link">About</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#" class="nav-link">Menu</a>
+                        <a href="#menu" class="nav-link">Menu</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#" class="nav-link">gallery</a>
+                        <a href="#testimonials" class="nav-link">Testimonials</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#" class="nav-link">contact</a>
+                        <a href="#gallery" class="nav-link">gallery</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#contact" class="nav-link">contact</a>
                     </li>
                 </ul>
                 <button id="menu-open-button" class="fas fa-bars"></button>
@@ -56,7 +59,7 @@
                 </div>
             </section>
 
-            <section class="about-section">
+            <section class="about-section" id="about">
                 <div class="section-content">
                     <div class="about-image-wrapper">
                         <img src="https://learningforward.org/wp-content/uploads/2022/02/Feb-24-webinar-thumbnail-Building-community-in-a-divided-world.jpg"
@@ -75,7 +78,7 @@
                 </div>
             </section>
 
-            <section class="menu-section">
+            <section class="menu-section" id="menu">
                 <h2 class="section-title">Our Menu</h2>
                 <div class="section-content">
                     <ul class="menu-list">
@@ -119,7 +122,7 @@
                 </div>
             </section>
 
-            <section class="testimonials-section">
+            <section class="testimonials-section" id="testimonials">
                 <h2 class="section-title">Testimonials</h2>
                 <div class="section-content">
                   <div class="slider-container swiper">
@@ -162,18 +165,72 @@
                 </div>
             </section>
             
-            <section class="gallery-section">
-                <h2 class="section-title">
+            <section class="gallery-section" id="gallery">
+                <h2 class="section-title">gallery</h2>
                     <div class="section-content">
                         <ul class="gallery-list">
                             <li class="gallery-item">
-                                <img src=https://www.barschool.net/sites/default/files/styles/image_gallery_xl/public/images/node/article/143-finshed-perfect-cocktail.jpg?h=5828d82c&itok=_GdbM2VB" alt="gallery" class="gallery-image">
+                                <img src="https://www.barschool.net/sites/default/files/styles/image_gallery_xl/public/images/node/article/143-finshed-perfect-cocktail.jpg?h=5828d82c&itok=_GdbM2VB" alt="gallery" 
+                                class="gallery-image">
+                            </li>
+                            <li class="gallery-item">
+                                <img src="https://img.freepik.com/free-photo/cocktail-with-lemon-lime-strawberry-decoration-generative-ai_188544-12376.jpg" alt="gallery" 
+                                class="gallery-image">
+                            </li>
+                            <li class="gallery-item">
+                                <img src="https://static.wixstatic.com/media/8103c5_aca04795b497426d9894b63783b2784e~mv2.jpg/v1/fill/w_640,h_400,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/8103c5_aca04795b497426d9894b63783b2784e~mv2.jpg" alt="gallery" 
+                                class="gallery-image">
+                            </li>
+                            <li class="gallery-item">
+                                <img src="https://img.freepik.com/free-photo/selection-various-cocktails-table_140725-2909.jpg" alt="gallery" 
+                                class="gallery-image">
                             </li>
                         </ul>
                     </div>
-                </h2>
             </section>
+            
+            <section class="contact-section" id="contact">
+                <h2 class="section-title">contact us</h2>
+                <div class="section-content">
+                    <ul class="contact-info-list">
+                        <li class="contact-info">
+                            <i class="fa-regular fa-envelope"></i>
+                            <p>sagriabc@gmail.com</p>
+                        </li>
+                        <li class="contact-info">
+                            <i class="fa-solid fa-phone"></i>
+                            <p>+91 7090884656</p>
+                        </li>
+                        <li class="contact-info">
+                            <i class="fa-regular fa-clock"></i>
+                            <p>Friday: Closed</p>
+                        </li>
+                    </ul>
 
+                    <form action="#" class="contact-form">
+                        <input type="text" placeholder="Your name" class="form-input" required>
+                        <input type="Email" placeholder="Your Email" class="form-input" required>
+
+                        <textarea placeholder="Your message" class="form-input" required></textarea>
+                        <button class="submit-button">Submit</button>
+                    </form>
+                </div>
+            </section>
+            <footer class="footer-section">
+            <div class="section-content">
+                <p class="copyright-text">2024 bismil Shop</p>
+                    <div class="social-link-list">
+                        <a href="#" class="social-link-list"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="#" class="social-link-list"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#" class="social-link-list"><i class="fa-brands fa-twitter"></i></a>
+                </div>
+                <p class="policy-text">
+                    <a href="#" class="policy-link">Privacy Policy</a>
+                    <span class="separater">.</span>
+                    <a href="#" class="policy-link">Refund Policy</a>
+                </p>
+            </div>
+            </footer>
         </main>
         <!--swipper-->
         <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
